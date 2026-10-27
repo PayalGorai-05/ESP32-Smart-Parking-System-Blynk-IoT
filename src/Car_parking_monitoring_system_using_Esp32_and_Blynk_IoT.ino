@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL33TjDN84x"
+#define BLYNK_TEMPLATE_ID "****************"
 #define BLYNK_TEMPLATE_NAME "IoT App"
-#define BLYNK_AUTH_TOKEN "g7zWfM6ISqKo9havuQ7K_C21Piuo-MDD"
+#define BLYNK_AUTH_TOKEN "**********************"
 
 #include <Wire.h>
 #include <WiFi.h>
@@ -13,9 +13,9 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define SENSOR1 32
 #define SENSOR2 33
 
-char auth[] = "g7zWfM6ISqKo9havuQ7K_C21Piuo-MDD";
-char ssid[] = "GT";
-char pass[] = "12345678";
+char auth[] = "---------------------";
+char ssid[] = "********";
+char pass[] = "****************";
 
 BlynkTimer timer;
 
